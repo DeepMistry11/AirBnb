@@ -24,15 +24,16 @@ export default function SearchResults({
           <p>{description}</p>
         </div>
         <div className="searchResult__infoBottom">
-          <div className="searchResult__stars"></div>
-          <StarIcon className="searchResult__star" />
-          <p>
-            <strong>{star}</strong>
-          </p>
-        </div>
-        <div className="searchResults__price">
-          <h2>{price}</h2>
-          <p>{total}</p>
+          <div className="searchResult__stars">
+            <StarIcon className="searchResult__star" />
+            <p>
+              <strong>{star}</strong>
+            </p>
+          </div>
+          <div className="searchResults__price">
+            <h2>{price}</h2>
+            <p>{total}</p>
+          </div>
         </div>
       </div>
     </div>
